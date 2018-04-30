@@ -1,0 +1,25 @@
+html, body {
+    width: 100%;
+}
+
+video, img, embed, frame {
+    max-width: 100%;
+}
+
+header {
+    line-break: normal;
+ 
+}
+
+.header-title {
+    display: inline-flex;
+    position: relative;
+  
+}
+.about-me-picture {
+    display: flex;
+    position: relative;
+
+
+
+}
