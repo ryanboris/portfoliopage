@@ -1,25 +1,50 @@
-html, body {
-    width: 100%;
+/*CSS Grid*/
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+   
 }
 
-video, img, embed, frame {
-    max-width: 100%;
+.header {
+    grid-area: header;
+    grid-column: 2;
+    grid-row: 1;
+    margin-left: auto;
 }
 
-header {
-    line-break: normal;
- 
+.article {
+    grid-area: article;
+    grid-column: 2; 
+    grid-row: 2; 
+    
 }
 
-.header-title {
-    display: inline-flex;
-    position: relative;
-  
+.section {
+    grid-area: section;
+    grid-column: span 2;
+    grid-row: 3;
 }
-.about-me-picture {
+
+/* responsive img*/
+
+#pic {
     display: flex;
-    position: relative;
+    
+}
 
+.img {
+    flex: 2; 
+}
 
+.projects {
+    display: flex;
+}
 
+.span1, .span2, .span3, .span4 {
+    flex: 1;
+    flex-flow: row wrap;
+    text-align: center;
+   
 }
