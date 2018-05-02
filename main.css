@@ -1,3 +1,4 @@
+
 /*CSS Grid*/
 
 .grid {
@@ -8,43 +9,52 @@
 }
 
 .header {
-    grid-area: header;
+
     grid-column: 2;
     grid-row: 1;
-    margin-left: auto;
+    
+    
 }
 
-.article {
-    grid-area: article;
+.pics {
+  
     grid-column: 2; 
     grid-row: 2; 
+    
     
 }
 
 .section {
-    grid-area: section;
+
     grid-column: span 2;
     grid-row: 3;
 }
 
 /* responsive img*/
 
-#pic {
-    display: flex;
-    
-}
 
-.img {
-    flex: 2; 
-}
 
 .projects {
     display: flex;
+
 }
 
 .span1, .span2, .span3, .span4 {
     flex: 1;
     flex-flow: row wrap;
-    text-align: center;
    
 }
+
+.article {
+
+    display: flex;
+    
+
+}
+
+.img {
+    flex: 1;
+    flex-flow: row wrap;
+}
+
+
