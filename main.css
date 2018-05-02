@@ -21,14 +21,12 @@ h3 {
 
 .pics {
   display: flex;
-
 }
 
 .img {
   flex: 1;
   max-width: 100%;
 }
-
 
 p {
   text-align: center;
